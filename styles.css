@@ -228,8 +228,9 @@ footer{background:linear-gradient(90deg,#111c22,#0c151a);color:#fff}
   .about-points{grid-template-columns:1fr;gap:20px}
   .about-points span{font-size:14px;line-height:1.5}
   .cta-buttons{grid-template-columns:minmax(0,1fr)}
-  .footer-top{grid-template-columns:minmax(0,1fr);gap:24px}
-  .footer-logo img{width:180px}
+  .footer-top{grid-template-columns:minmax(0,1fr);gap:24px;text-align:center;justify-items:center}
+  .footer-logo img{width:180px;margin-inline:auto}
+  .footer-contact{justify-content:center;align-items:center;text-align:center}
   .footer-contact b{font-size:19px}
-  .footer-script{font-size:24px}
+  .footer-script{font-size:24px;text-align:center;justify-self:center}
 }
